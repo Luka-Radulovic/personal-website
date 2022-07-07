@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="index-container" >
+    <div class ="index-container-top-bar" >
+        <img class="portrait" src="index_img.png" >
+        <h1 class = "name-surname"> LUKA RADULOVIKJ </h1>
+        <h3 class = "top-bar-description"> Computer Science student at University of Cyril and Methodius, Skopje</h3>
+
+    </div>
+    <div class="flex-option-container">
+        <div class="flex-option flex-option-1" >
+                <span class="flex-span-1">
+                    <h1 style="text-align: center"><button href="cv.html"  id="CV-button" onclick="window.open('https://www.canva.com/design/DAEk9eTnkQQ/pkgy-VYcxlpbOJzgWAe8FQ/view?website#2:contact ', '_blank'); " target="_blank" style="text-decoration: none;">CV</button></h1>
+                </span>
+                <span class="flex-span-2">
+                    <h4 style="text-align: center">Work experience, skills</h4>
+                </span>
+        </div>
+        <div class="flex-option flex-option-2" >
+            <span class="flex-span-1">
+                <h1 style="text-align: center; font-size: 30px"><button role="button" id="about-me-button" onclick="showAboutMe()" > About me </button></h1>
+            </span>
+
+            <span class="flex-span-2">
+                  <h4 style="text-align: center">Hobbies and interests</h4>
+            </span>
+        </div>
+        <div class="flex-option flex-option-3" >
+            <span class="flex-span-1">
+                <h1 style="text-align: center; font-size: 30px"><button role="button" id="contact-button" onclick="showContact()" > Contact </button></h1>
+            </span>
+            <span class="flex-span-2">
+                 <h4 style="text-align: center">Email, phone, address</h4>
+            </span>
+
+        </div>
+
+        <div id="contact-bar">
+            <span class = "contact-span contact-span-email" style="border-top:none">
+            <h5 style="text-align: center; margin: 0;margin-top: 5px;">Email: lukaradulovikj@gmail.com</h5>
+            </span>
+            <span class = "contact-span contact-span-phone">
+            <h5 style="text-align: center; margin:0 ; margin-top: 5px;">Phone: +389 72 692 818</h5>
+            </span>
+            <span class = "contact-span contact-span-adrress" style="display:flex; flex-direction: column">
+                    <span style="min-height: 20%">
+                    <h6 style="margin-top: 5px; text-align: center">Address: Faculty of Computer Science and Engineering, Skopje </h6>
+                    </span>
+                    <span style="min-height: 80%; align-self: flex-end">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23720.73715878983!2d21.396630381384295!3d41.99829796283649!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33d56647e5b87264!2sFaculty%20of%20Computer%20Science%20%26%20Engineering!5e0!3m2!1sen!2smk!4v1656784592779!5m2!1sen!2smk"  style=" margin-top: 15px; margin-left: 11px; border: black solid 2px; max-height: 70%; max-width: 90%;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </span>
+
+            </span>
+        </div>
+
+    </div>
+    <div id="popup-container">
+        <div class="popup-container-item popup-container-item-debate ">
+                <span class="debate-img-span"> </span>
+
+             <span class="debate-text">
+                 <h4 style="margin: 0; padding: 0; text-align: center">Competitive debate</h4>
+                 <p style="margin: 10px; padding: 0; text-align: center; word-break: break-word; font-size: 12px; word-wrap: break-word; white-space: pre-wrap"> I got into competitive debate when I was in my freshman year of high school. Currently, I coach a club of novice debaters and help organize events and tournaments. </p>
+
+             </span>
+        </div>
+
+        <div class="popup-container-item popup-container-item-compsci ">
+            <span class="compsci-img-span"> </span>
+            <span class="compsci-text">
+                <h4 style="margin: 0; padding: 0; text-align: center">Computer science</h4>
+                <p style="margin: 10px; padding: 0; text-align: center; word-break: break-word; font-size: 12px; word-wrap: break-word; white-space: pre-wrap"> I am currently in my freshman year of computer science. I enjoy programming and mathematics and strive to become better at both. </p>
+            </span>
+
+        </div>
+        <div class="popup-container-item popup-container-item-chess">
+            <span class="chess-img-span"> </span>
+            <span class="chess-text">
+                <h4 style="margin: 0; padding: 0; text-align: center">Chess</h4>
+                <p style="margin: 10px; padding: 0; text-align: center; word-break: break-word; font-size: 12px; word-wrap: break-word; white-space: pre-wrap"> I enjoy casually playing, watching, and studying games of chess. I find that chess helps with my concentration and decision-making skills.  </p>
+
+            </span>
+
+        </div>
+
+        <div class="popup-container-item popup-container-item-history">
+            <span class="history-img-span"> </span>
+            <span class="histoy-text">
+                <h4 style="margin: 0; padding: 0; text-align: center; width: 100%">History and politics</h4>
+                <p style="margin: 10px; padding: 0; text-align: center; word-break: break-word; font-size: 12px; word-wrap: break-word; white-space: pre-wrap"> I love reading about historical events and the way they've shaped our world today, as well as current political happenings. </p>
+            </span>
+
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    showAboutMe();
+    showContact();
+    function showAboutMe() {
+        var x = document.getElementById("popup-container");
+        if (x.style.visibility === "hidden") {
+            x.style.visibility = "visible";
+        } else {
+            x.style.visibility = "hidden";
+        }
+    }
+    function showContact () {
+        var x = document.getElementById("contact-bar")
+        if (x.style.visibility === "hidden"){
+            x.style.visibility = "visible";
+        }
+        else {
+            x.style.visibility ="hidden";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.index-container{
+    height: 400px;
+    width: 800px;
+    border: 10px black solid;
+
+
+}
+.index-container-top-bar{
+
+    position: relative;
+    height: 150px;
+    width: auto;
+    background-color: black;
+
+}
+.portrait {
+    max-height: 80%;
+    float: right;
+    border-radius: 180px;
+    left:100px;
+
+}
+.top-bar-description{
+font-family: Poppins, sans-serif;
+    color: white;
+float:right;
+    font-size: smaller;
+    margin-top: 0;
+    margin-right: 40px;
+
+}
+.name-surname{
+    font-family: Poppins, sans-serif;
+    color:white;
+    float:right;
+    margin-right: 40px;
+
+}
+.flex-option-container{
+
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+.flex-option{
+    margin: 50px;
+    min-height: 15%;
+    min-width :20%;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-span-1{
+    min-height: 40%;
+    min-width: 100%;
+
+}
+.flex-span-2{
+    min-height: 60%;
+    min-width: 100%;
+
+}
+
+#about-me-button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:7px;
+    font-family: Poppins;
+    font-size: 25px;
+
+}
+#about-me-button:hover{
+background-color: black;
+    color: white;
+}
+#about-me-button{
+    transition-duration: 0.6s;
+}
+
+#CV-button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:7px;
+    font-family: Poppins;
+    font-size: 25px;
+}
+#CV-button:hover{
+    color: white;
+    background-color: black;
+
+}
+
+
+#CV-button{
+    transition-duration: 0.6s;
+}
+
+#contact-button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:7px;
+    font-family: Poppins;
+    font-size: 25px;
+    transition-duration: 0.6s;
+}
+#contact-button:hover{
+    color: white;
+    background-color: black;
+}
+
+#contact-bar{
+    visibility: hidden;
+    margin: 0px;
+    min-height: 15%;
+    min-width :30%;
+    border: black solid 5px;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-span{
+    border:solid 1px black;
+
+    min-width: 100%;
+}
+.contact-span-email{
+ min-height: 20%;
+
+}
+.contact-span-phone{
+    min-height: 20%;
+}
+.contact-span-adrress{
+    min-height: 60%;
+}
+#popup-container{
+    visibility: hidden;
+    height: 280px;
+    width: auto;
+    border: solid black 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+
+}
+.popup-container-item{
+   flex-basis: 100%;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+.debate-img-span{
+    min-height: 35%;
+    background-image: url("debate img.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+.debate-text{
+    min-height: 75%;
+}
+.compsci-img-span{
+    min-height: 35%;
+    background-image: url("minimal-desktop-computer-with-power-button.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+.compsci-text{
+    min-height: 75%;
+}
+.chess-img-span{
+    min-height: 35%;
+
+    background-image: url("chess img.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.chess-text{
+    min-height: 75%;
+}
+.history-img-span{
+    min-height: 35%;
+    background-image: url("history img.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+.history-text{
+    min-height: 75%;
+
+}
+
+
